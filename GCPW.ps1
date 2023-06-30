@@ -83,9 +83,9 @@ $mgmntName = 'EnrollmentToken'
 $tokens = Get-ItemPropertyValue HKLM:\Software\Policies\Google\CloudManagement -Name $enrollmentname
 
 if ($tokens -eq $enrollmenttoken) {
-    $msgResult = [System.Windows.MessageBox]::Show('Configuration completed successfully!', 'Device Enrollment', 'OK', 'Info')
+    $msgResult = [System.Windows.MessageBox]::Show('Configuration completed successfully!', 'Device Management', 'OK', 'Info')
 }
 else {
-    $msgResult = [System.Windows.MessageBox]::Show('Could not write to registry. Configuration was not completed.', 'Device Enrollment', 'OK', 'Error')
+    $msgResult = [System.Windows.MessageBox]::Show('Could not write to registry. Configuration was not completed.', 'Device Management', 'OK', 'Error')
 
 }
