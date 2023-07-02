@@ -1,4 +1,4 @@
-# Apps Script
+# Apps Script
 Useful functions for Google Apps Script projects. 
 
 Here for both my future reference & easy access, and to benefit anybody else who may need it.
